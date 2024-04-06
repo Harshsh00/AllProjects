@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Guess random number</h1>
+      <!-- form start here -->
+      <form class="form">
+        <label class="guessFiled" id="guess">Guess a number </label>
+        <input type="text" class="guessField" id="guessField"/>
+        <input type="submit" value="Submit guess" id="subt" class="guessSubmit"/>
+      </form>
+      <!-- result -->
+      <div class="resultParas">
+        <p>Previos Guess: <span class="guesses"></span> </p>
+        <p>Guess Remaining: <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+      </div>
+    </div>
+    <script src="./randomNo.js"></script>
+  </body>
+</html>

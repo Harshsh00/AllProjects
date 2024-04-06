@@ -1,0 +1,50 @@
+// js topics 
+
+// 1. array
+// 2. objects
+// 3. function
+// 4. loops
+// 5. asy and wait
+// 6. promises (Promise are done ) https://www.youtube.com/watch?v=efrW5-IYoCU&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=38
+// 7. scope
+// 8. hosting
+// 9. closer
+// 10. Fetch
+// 11.type casting ---> parseInt ,parseStr(),yoString() --> convert one type to another type
+// 12. reduce and filter 
+/* 13. intance
+    14. event loop
+()*/
+
+
+
+// github
+
+// sql
+// var add = (a, b) => a + b;
+
+
+
+// var calculate = (x) => {
+
+//   return (y) => {
+
+//     return add(x, y);
+
+//   };
+
+// };
+
+
+
+// var result = calculate(5)(3);
+
+
+
+// console.log(result);
+
+// const fruits = ["apple", "banana", "cherry"];
+
+// const sortedFruits = fruits.sort();
+
+// console.log(sortedFruits);

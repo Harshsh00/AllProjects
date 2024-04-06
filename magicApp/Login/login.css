@@ -1,0 +1,39 @@
+form{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: blue; */
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 13rem;
+    height: 2rem;
+    border-radius: 8px;
+}
+input:focus{
+    background: lightgray;
+}
+
+input::placeholder{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+    background: grey;
+    color: white;
+    border-radius: 7px;
+}
+
+button:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
